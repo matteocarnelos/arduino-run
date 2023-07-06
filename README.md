@@ -13,7 +13,7 @@
 
 ## Installation
 
-1. Install [`arduino-cli`](https://arduino.github.io/arduino-cli/latest/installation/)
+1. [Install `arduino-cli`](https://arduino.github.io/arduino-cli/latest/installation/)
 2. Install `arduino-run`:
     ```
     cargo install arduino-run
@@ -27,7 +27,7 @@ Add the following in your `.cargo/config.toml`:
 runner = "arduino-run -b <board> -p <port>"
 ```
 
-### Command Reference
+### Command reference
 
 ```
 arduino-run [OPTIONS] --board <BOARD> --port <PORT> <ELF>
